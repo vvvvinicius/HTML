@@ -4,9 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Contato</title>
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        <ul>
+        <ul id="menu">
             <li>
                 <a href="index.html">Página inicial</a>
             </li>
@@ -15,16 +16,29 @@
             </li>
         </ul>
 
-        <form>
+        <div class="fale_comigo">
+            <img src="assets/fale_comigo.png" alt="Fale comigo">
+
+            <form>
             <label for="nome">Nome:</label><br>
             <input type="text" id="nome">
             <br>
+            <br>
             <label for="email">E-mail:</label><br>
             <input type="email" id="email">
+            <br>
             <br>
             <label for="assunto">Assunto:</label><br>
             <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
             <br>
             <button>Enviar</button>
-        </form>
+             </form>
+    </div>
+    
+    <div class="redes">
+        <br><br><a href="https://github.com/vvvvinicius" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/vin%C3%ADcius-barbosa-a4355aa8/" target="_blank">Linkedin</a>
+    </div>
+
+    
     </body>
